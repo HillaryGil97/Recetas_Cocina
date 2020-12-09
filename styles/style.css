@@ -1,25 +1,24 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-nav .container-fluid {
-  background-color: aqua;
-}
-
-.container-fluid #top_recetas {
-  background-color: pink;
-}
-
-.container-fluid #blog {
-  background-color: yellow;
-}
-
-.container-fluid #tutoriales {
-  background-color: green;
-}
-
-.container-fluid footer {
+body {
   background-color: indianred;
 }
+
+/*nav{
+    .container-fluid{
+        background-color: aqua;
+    }
+}*/
+/*.container-fluid{
+    #top_recetas{
+        background-color: pink;
+    }
+    #blog{
+        background-color: yellow;
+    }
+    #tutoriales{
+        background-color: green;
+    }
+    footer{
+        background-color: indianred;
+    }
+}*/
 /*# sourceMappingURL=style.css.map */

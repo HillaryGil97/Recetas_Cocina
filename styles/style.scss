@@ -1,15 +1,13 @@
-*{
-    margin:0;
-    padding:0;
-}
+@import "variables";
+@import "base";
 
-nav{
+/*nav{
     .container-fluid{
         background-color: aqua;
     }
-}
+}*/
 
-.container-fluid{
+/*.container-fluid{
     #top_recetas{
         background-color: pink;
     }
@@ -22,4 +20,4 @@ nav{
     footer{
         background-color: indianred;
     }
-}
+}*/
