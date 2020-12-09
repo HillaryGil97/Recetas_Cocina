@@ -18,4 +18,8 @@ nav .container-fluid {
 .container-fluid #tutoriales {
   background-color: green;
 }
+
+.container-fluid footer {
+  background-color: indianred;
+}
 /*# sourceMappingURL=style.css.map */
