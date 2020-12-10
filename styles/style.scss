@@ -1,23 +1,5 @@
 @import "variables";
 @import "base";
-
-/*nav{
-    .container-fluid{
-        background-color: aqua;
-    }
-}*/
-
-/*.container-fluid{
-    #top_recetas{
-        background-color: pink;
-    }
-    #blog{
-        background-color: yellow;
-    }
-    #tutoriales{
-        background-color: green;
-    }
-    footer{
-        background-color: indianred;
-    }
-}*/
+@import "topRecetas";
+@import "blog";
+@import "tutorials";

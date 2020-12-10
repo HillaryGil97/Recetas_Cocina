@@ -1,0 +1,31 @@
+#blog{
+    div{
+        margin: 15px;
+        display:flex;
+        justify-content: space-around;
+        .preview{
+            width: 40%;
+        }
+        .text{
+            width: 50%;
+            flex-direction: column;
+        }
+    }
+}
+
+.inputBlog{
+    div{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        *{
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom:15px;
+        }
+        iframe{
+            height: 512px;
+        }
+    }
+}

@@ -1,24 +1,80 @@
 body {
-  background-color: indianred;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url("https://thumbs.dreamstime.com/b/textura-incons%C3%BAtil-comida-41932477.jpg");
 }
 
-/*nav{
-    .container-fluid{
-        background-color: aqua;
-    }
-}*/
-/*.container-fluid{
-    #top_recetas{
-        background-color: pink;
-    }
-    #blog{
-        background-color: yellow;
-    }
-    #tutoriales{
-        background-color: green;
-    }
-    footer{
-        background-color: indianred;
-    }
-}*/
+body .container .row {
+  margin-top: 15px;
+  background-color: #4ccc61;
+}
+
+body .container-fluid {
+  background-color: #6ca04f;
+}
+
+#top_recetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#top_recetas div {
+  margin-bottom: 15px;
+}
+
+#top_recetas div img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#receta div img {
+  border-radius: 15px;
+}
+
+#blog div {
+  margin: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#blog div .preview {
+  width: 40%;
+}
+
+#blog div .text {
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inputBlog div {
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.inputBlog div * {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 15px;
+}
+
+.inputBlog div iframe {
+  height: 512px;
+}
 /*# sourceMappingURL=style.css.map */

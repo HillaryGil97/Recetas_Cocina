@@ -1,3 +1,13 @@
 body{
-    background-color: indianred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://thumbs.dreamstime.com/b/textura-incons%C3%BAtil-comida-41932477.jpg");
+    .container{
+        .row{
+            margin-top: 15px;
+            background-color: $fondo_section;
+        }
+    }
+    .container-fluid{
+        background-color: $fondo_footer;
+    }
 }
