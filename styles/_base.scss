@@ -9,5 +9,18 @@ body{
     }
     .container-fluid{
         background-color: $fondo_footer;
+        footer{
+            div{
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                            color: black;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
